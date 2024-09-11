@@ -1,0 +1,46 @@
+package Ejercicios;
+
+
+import java.util.Arrays;
+
+/*Haz un programa que dado un array unidimensional de enteros escrito en codigo, muestre cuales de ellos cumple la condicion de ser un numero primo.
+ * El programa debe recorrer el array y para cada elemento si la condicion se cumple, se debe mostrar SI o No*/
+public class Ej1 {
+
+	public static void main(String[] args) {
+		int [] numeros = {2, 4, 5, 9, 11, 17};
+		boolean esPrimo = true;
+		
+		
+		
+		
+		System.out.println("ARRAY: " + Arrays.toString(numeros));
+		
+		for(int num : numeros) {
+			 if (num <= 1) {
+	                System.out.println(num + ": SI");
+	            } else {
+	                System.out.println(num + ": NO");
+	            }
+	        }
+	    }
+
+	    public static boolean esPrimo(int num) {
+	        if (num <= 1) {
+	            return false;
+	        }
+	        for (int i = 2; i < num; i++) {
+	            if (num % i == 0) {
+	                return false;
+	            }
+	        }
+	        return true;
+		}
+		
+		
+		
+		
+
+	
+
+}

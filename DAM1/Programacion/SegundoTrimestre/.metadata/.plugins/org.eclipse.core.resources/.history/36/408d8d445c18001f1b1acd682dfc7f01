@@ -1,0 +1,19 @@
+package Ejercicios;
+
+public class Ej7 {
+
+	/*
+	 * Haz una clase que represente lo siguiente: un insecto tiene un nombre de
+	 * especie, un sonido (texto de la onomatopeya), un nÃºmero de patas y un
+	 * nÃºmero de alas. Las acciones que puede realizar un insecto son las
+	 * siguientes: saber si tiene alas o no (si hay al menos una, ese insecto tiene
+	 * alas), mutar (el nÃºmero de alas y de patas se cambia de manera aleatoria,
+	 * entre 0 y hasta 6 en ambos casos) y emitir sonido (muestra por consola un
+	 * mensaje con el sonido del animal).
+	 */
+	public static void main(String[] args) {
+		
+
+	}
+
+}

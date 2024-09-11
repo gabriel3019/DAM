@@ -1,0 +1,14 @@
+package Ejercicios;
+
+public class Ej4 {
+
+	/*
+	 * Sobre un array en código, que el usuario introduzca un número a buscar y nos
+	 * diga cuántos números por encima de éste existen dentro del array.
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

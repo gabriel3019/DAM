@@ -1,0 +1,5 @@
+package Encapsulamiento;
+
+public enum TipoPokemon {
+
+}

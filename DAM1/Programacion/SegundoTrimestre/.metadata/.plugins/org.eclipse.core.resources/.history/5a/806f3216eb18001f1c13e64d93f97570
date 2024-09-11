@@ -1,0 +1,13 @@
+package Ejercicios;
+
+public class Ej2 {
+
+	public static void main(String[] args) {
+		String [][] matriz = {
+		{"Pomelo", "Sol", "Acebo"},
+		{"Clave", "Universo", "Tijeras"},
+		{"Elefante", "luz", "Titanio"}
+		};
+	}
+
+}

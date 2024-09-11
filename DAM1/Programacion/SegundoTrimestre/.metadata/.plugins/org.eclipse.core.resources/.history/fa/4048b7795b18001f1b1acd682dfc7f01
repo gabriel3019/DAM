@@ -1,0 +1,19 @@
+package Ejercicios;
+
+public class Ej3 {
+
+	/*
+	 * Haz un programa que pida al usuario una cadena. Luego, crea un vector (1D) de
+	 * strings a partir de esa cadena usando el sÃ­mbolo '-' como delimitador de
+	 * elementos. DespuÃ©s, elimina de cada string la letra 'A' o 'a' y muestra el
+	 * vector resultante. Ejemplo:
+	 * 
+	 * "Esta-es-una-CADENA" -> {"Esta", "es", "una", "CADENA"} -> {"Est", "es",
+	 * "un", "CDEN"}
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

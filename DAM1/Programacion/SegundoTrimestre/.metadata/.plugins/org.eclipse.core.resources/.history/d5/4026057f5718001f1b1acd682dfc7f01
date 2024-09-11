@@ -1,0 +1,18 @@
+package Ejercicios;
+
+public class Ej10 {
+
+	/*
+	 * Hacer un programa que pida al usuario una cadena y separe palabras por
+	 * espacios mediante el método "split()". También le pide una letra objetivo y
+	 * después crea un array de enteros que tenga en cada posición el número de
+	 * veces que aparece dicha letra en una palabra concreta de las obtenidas con
+	 * "split()". Ejemplo: USUARIO: "Esta es una cadena" USUARIO: Buscar "a"
+	 * PROGRAMA: [1, 0, 1, 2]
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

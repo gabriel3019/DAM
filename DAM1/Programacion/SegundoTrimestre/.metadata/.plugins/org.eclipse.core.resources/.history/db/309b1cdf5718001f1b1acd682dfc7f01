@@ -1,0 +1,15 @@
+package Ejercicios;
+
+public class Ej13 {
+
+	/*
+	 * Hacer un programa que, dado un array de chars escrito en código, muestre
+	 * todos sus desplazamientos posibles. Por ejemplo, para el array {'A', 'B',
+	 * 'C', 'D'} se vería en consola: A B C D D A B C C D A B B C D A
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

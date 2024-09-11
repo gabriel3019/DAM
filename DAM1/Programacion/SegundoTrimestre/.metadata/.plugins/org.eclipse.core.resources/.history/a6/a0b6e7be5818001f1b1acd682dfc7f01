@@ -1,0 +1,16 @@
+package Ejercicios;
+
+public class Ej1 {
+
+	/*
+	 * Hacer un programa que tenga una matriz definida en el código y pida al
+	 * usuario una fila y una columna. Después, muestra el elemento en la posición
+	 * indicada. Si la matriz no tiene esa posición (índices fuera de rango), se
+	 * muestra un mensaje de error
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

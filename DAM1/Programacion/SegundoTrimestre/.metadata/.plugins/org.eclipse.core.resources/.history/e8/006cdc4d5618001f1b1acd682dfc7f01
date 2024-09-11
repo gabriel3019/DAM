@@ -1,0 +1,15 @@
+package Ejercicios;
+
+public class Ej3 {
+
+	/*
+	 * Pedir al usuario una cantidad de elementos y se genera un array con esa
+	 * capacidad lleno de números aleatorios. Después, se muestra la suma de todos
+	 * los elementos.
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

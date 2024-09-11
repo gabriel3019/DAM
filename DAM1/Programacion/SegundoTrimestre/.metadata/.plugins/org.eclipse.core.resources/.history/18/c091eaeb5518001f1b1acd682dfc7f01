@@ -1,0 +1,15 @@
+package Ejercicios;
+
+public class Ej2 {
+
+	/*
+	 * Sobre un array en código, que el usuario vaya introduciendo dos posiciones y
+	 * se intercambien sus valores (hasta que decida salir, por ejemplo si introduce
+	 * un número negativo).
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

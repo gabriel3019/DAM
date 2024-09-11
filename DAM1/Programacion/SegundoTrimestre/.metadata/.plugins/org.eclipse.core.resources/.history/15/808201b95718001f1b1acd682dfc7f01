@@ -1,0 +1,17 @@
+package Ejercicios;
+
+public class Ej12 {
+
+	/*
+	 * Hacer un programa que calcule para un array de alturas humanas (doubles o
+	 * floats, escrito en código), calcule la altura media y luego cree un array de
+	 * booleans de la misma longitud, indicando con un "true" si la altura de cada
+	 * posición es igual o mayor a la media, así como con un "false" si está por
+	 * debajo.
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

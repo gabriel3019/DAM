@@ -1,0 +1,16 @@
+package Ejercicios;
+
+public class Ej4 {
+
+	/*
+	 * Hacer un programa que pida al usuario un número de filas y otro de columnas.
+	 * Después, va pidiendo los valores a poner en cada posición (el usuario rellena
+	 * la matriz con sus valores). Luego, muestra la matriz para verificar que está
+	 * bien.
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

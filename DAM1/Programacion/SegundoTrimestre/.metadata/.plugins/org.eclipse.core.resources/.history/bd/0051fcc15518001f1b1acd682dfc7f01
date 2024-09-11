@@ -1,0 +1,15 @@
+package Ejercicios;
+
+public class Ej1 {
+
+	/*
+	 * Sobre un array en código, que el usuario introduzca un número a buscar y nos
+	 * diga la/s posición/es donde está dicho número. Si no está, comunica un error
+	 * "número no encontrado".
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

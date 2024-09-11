@@ -1,0 +1,46 @@
+package Ejercicios;
+
+import java.util.Scanner;
+
+public class Ej2 {
+
+	/*
+	 * Hacer un programa que tenga una matriz de booleanos, todos puestos a falses.
+	 * Pide al usuario una fila y una columna. Después, convierte a true el booleano
+	 * de esa posición. Si la matriz no tiene esa posición (índices fuera de rango),
+	 * se muestra un mensaje de error. El programa termina cuando se hayan
+	 * convertido todos los booleans a true;
+	 */
+	public static void main(String[] args) {
+		int filas = 3;
+		int columnas = 3;
+		boolean[][] matriz = new boolean[filas][columnas];
+		int contFalses = filas * columnas;
+		int fila;
+		int columna;
+		Scanner sc = new Scanner(System.in);
+
+		while (contFalses > 0) {
+			// Pedir al usuario la posición:
+			System.out.print("Introduce la fila: ");
+			fila = sc.nextInt();
+			System.out.print("Introduce la columna: ");
+			columna = sc.nextInt();
+			
+			if (!matriz[fila][columna]) {
+				// Cambiar el valor de la posición:
+				matriz[fila][columna] = true;
+				
+				// Decrementamos el contador:
+				contFalses--;
+			} else {
+				System.out.println("Esta posición ya está en true.");
+			}
+
+		}
+
+		System.out.println("Todas las posiciones están en true.");
+
+	}
+
+}

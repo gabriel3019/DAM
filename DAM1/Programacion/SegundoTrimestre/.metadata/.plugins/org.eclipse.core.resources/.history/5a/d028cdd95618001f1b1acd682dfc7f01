@@ -1,0 +1,19 @@
+package Ejercicios;
+
+public class Ej5 {
+
+	/*
+	 * Implementa el siguiente juego: 1. Se genera un "tablero" (array de booleans)
+	 * aleatorio (los valores de cada posición son "true" o "false" generados con
+	 * "nextBoolean()" de "Random"). 2. El usuario hace una ronda: elige una
+	 * posición y el boolean de dicha posición se invierte (de "true" pasa a "false"
+	 * o al revés). 3. Luego, el ordenador le dice cuántos "trues" hay en el
+	 * tablero. 4. Si todas las posiciones están a "true", termina el juego. Si no,
+	 * se hace una nueva ronda.
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

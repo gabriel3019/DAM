@@ -1,0 +1,22 @@
+package Ejercicios;
+
+import java.util.Scanner;
+
+public class Ej1 {
+
+	/*LETRA1-DIGITOS-LETRA2*/
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		String cadena;
+		boolean flag = true;
+		
+		
+		System.out.println("Introduce una cadena: ");
+		cadena = entrada.nextLine();
+		
+		
+		
+
+	}
+
+}

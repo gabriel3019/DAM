@@ -1,0 +1,62 @@
+package Ejercicios;
+
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Ej1 {
+
+	/*LETRA1-DIGITOS-LETRA2*/
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		String cadena;
+		boolean flag = true;
+		String parte1;
+		String parte2;
+
+		int id;
+		int idProyecto;
+		int comilla = 0;
+		
+		
+		System.out.println("Introduce una cadena: ");
+		cadena = entrada.nextLine();
+		
+		if(cadena.length() >= 1 && cadena.length() <= 8) {
+			comilla = cadena.indexOf("-");
+		}
+		
+		if(comilla >= 1 && comilla <= cadena.length()) {
+			parte1 = cadena.substring(0, comilla);
+			parte2 = cadena.substring(comilla + 1);
+			
+			if(parte1.length() > 1 || parte2.length() > 1) {
+				flag = false;
+			}
+			
+			for (int i = 0; i < parte1.length(); i++) {
+				if(parte1.charAt(i) < 'A' || parte1.charAt(i) > 'C') {
+					flag = false;
+				}
+			}
+			
+			for (int i = 0; i < parte2.length(); i++) {
+				if(parte2.charAt(i) < '0' || parte2.charAt(i) > '9') {
+					flag = false;
+				}
+			}
+			
+			if(flag) {
+				System.out.println("Cadena correcta");
+			} else {
+				System.out.println("Cadena incorrecta");
+			}
+			
+		} else {
+			System.out.println("Cadena incorrecta");
+		} 
+		
+		
+
+	} 
+
+}
